@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-crypto-dark text-white font-sans;
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-crypto-card/60 backdrop-blur-md border border-white/10 shadow-xl rounded-2xl;
+  }
+}
